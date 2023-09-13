@@ -1,9 +1,21 @@
-
-div{
+/* Default styles */
+div {
     text-align: center;
 }
 
-.output{
+p {
+    position: absolute;
+    margin: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.output {
     margin-top: 100px;
     grid-column: 1 / span 4;
     height: 40px;
@@ -14,26 +26,25 @@ div{
     padding-left: 10px;
 }
 
-.buttons{
+.buttons {
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 10px;
     margin-top: 20px;
-    margin-left: 835px;
-    margin-right: 1000px;
+    justify-content: center;
 }
 
-button{
+button {
     height: 50px;
     width: 50px;
 }
 
-.clear{
+.clear {
     width: 110px;
     grid-column: 1 / span 2;
 }
 
-.zero{
+.zero {
     width: 110px;
     grid-column: 1 / span 2;
 }
