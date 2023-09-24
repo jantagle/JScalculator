@@ -37,7 +37,7 @@ bclear.addEventListener('click', butclear);
 const bdot = document.getElementById(".");
 bdot.addEventListener('click', butdot);
 
-# handout: begin-exclude
+// # handout: begin-exclude
 
 function but1() {
     let val = 1;
@@ -127,6 +127,6 @@ function butdot() {
     op.value += val;
 }
 
-# handout: end-exclude
+// # handout: end-exclude
 
 
